@@ -84,6 +84,7 @@
   justify-content: center;
   gap: 30px;
   height: 50vh;
+  padding: 20px 0 20px 0;
   background-color: white;
 }
 .about_intro p {
@@ -116,6 +117,7 @@
     width: 100vw;
   }
   .about_intro p {
-    width: 100%;
+    width: 95%;
+    font-size: 1.2rem;
   }
 }
