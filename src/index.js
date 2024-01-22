@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import About from './component/About/about'
+import Component_index from './component/component_index';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -9,7 +9,19 @@ import {
 const router= createBrowserRouter([
   {
     path:'/',
-    element:<About/>
+    element:Component_index.About
+  },
+  {
+    path:'/Facilities',
+    element:Component_index.Facilities
+  },
+  {
+    path:'/Services',
+    element:Component_index.Service
+  },
+  {
+    path:'/Membership',
+    element:Component_index.Membership
   }
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
