@@ -90,7 +90,7 @@ export default function Navbar() {
           <div className={Navstyle.mobile_menu} ref={mobile_menu}>
             <ul>
               <li>
-                <NavLink className={() => `${Navstyle.nav_link}`}>
+                <NavLink to="/" className={() => `${Navstyle.nav_link}`}>
                   About
                 </NavLink>
               </li>

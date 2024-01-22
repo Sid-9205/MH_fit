@@ -123,6 +123,7 @@
   }
   .heading h1 {
     text-align: center;
+    font-size: 2.5rem;
   }
   .main_div {
     top: -10vh;
